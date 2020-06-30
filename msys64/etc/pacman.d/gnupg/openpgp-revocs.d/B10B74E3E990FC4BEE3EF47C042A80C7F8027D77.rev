@@ -1,0 +1,33 @@
+Este es un certificado de revocación para la clave OpenPGP:
+
+pub   rsa2048 2020-06-28 [S]
+      B10B74E3E990FC4BEE3EF47C042A80C7F8027D77
+uid          Pacman Keyring Master Key <pacman@localhost>
+
+Un certificado de revocación es una especie de "interruptor general" para declarar
+públicamente que una clave no debería usarse más. No es posible deshacer
+un certificado de este tipo una vez que se publica.
+
+Úsalo para revocar esta clave en caso de un compromiso o pérdida de
+la clave secreta. De cualquier modo, si la clave secreta está disponible,
+es mejor generar un nuevo certificado de revocación y dar una razón para la misma
+Para más detalles, lee la descripción de la orden gpg "--generate-revocation"
+en el manual GnuPG.
+
+Para prevenir el uso accidental de este archivo se han insertado dos
+puntos (:) antes de los 5 guiones debajo. Remueve estos dos puntos
+con un editor de texto antes de importar y publicar este certificado
+de revocación.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: This is a revocation certificate
+
+iQE2BCABCAAgFiEEsQt04+mQ/EvuPvR8BCqAx/gCfXcFAl75JMsCHQAACgkQBCqA
+x/gCfXf1UAf8CYA3xQh6ShfuqZwixopT64H39IClsLDb7wQWURauKOdEY9LfWvXc
+LrVHfmfZzbX+5Kt/IakN7uxB00em0/ztCRT+Y407Q3Y05qjREueeg2HguGb7KtLn
+LeuCxjy2WpvUU6qUv8y6csVjZ3T7by1s+0Ny1wMHfEQJ4TS6DO+40JVVVjO/znJ1
+eFxjqHO8hcNBQ9D0fyGWyS/9fzxjMuLzjg+xP+UJfzdhpE3zQqAfvB91B+XjK6bQ
+jZrlirQHt+TN/DQ4ut2S6afxiwgHglgU8Ge1p5IRm2HTySI2us9UB9QazDKgbVvr
+fCaGXJx+1u+iyazhJ+gxHjGoUvH+fn90HQ==
+=Lifg
+-----END PGP PUBLIC KEY BLOCK-----
