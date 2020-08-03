@@ -1,5 +1,4 @@
-# sg-desarrollo-aperez
-Proyecto - Entrevista técnica desarrollo
+# desarrollo-aperez
 El archivo appSinatra.rb se compone de una llamada AJAX y código Js, introduciendo
 dentro del campo "texto" en / la frase a testear.
 
